@@ -1,0 +1,22 @@
+body{
+    font-family: Arial, sans-serif;
+    margin:0;
+    background-color:white;
+    color:black;
+}
+/* Header styles */
+header{
+    background-color:pink;
+    color: white;
+    text-align: center;
+    padding: 25px;
+}
+/*Main section styles */
+section{
+    padding: 15px;
+    margin: 10px auto;
+    background-color: white;
+    border-radius: 15px;
+    width:90%;
+    box-shado
+}
