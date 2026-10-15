@@ -6,10 +6,19 @@ body{
 }
 /* Header styles */
 header{
-    background-color:pink;
+    background: #78ad5f;
     color: white;
     text-align: center;
     padding: 25px;
+}
+/* Profile photo styles */
+.profile-photo {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid white;
+    margin-bottom: 10px;
 }
 /*Main section styles */
 section{
@@ -18,5 +27,73 @@ section{
     background-color: white;
     border-radius: 15px;
     width:90%;
-    box-shado
+    box-shadow: 0 0 5px #ccc;
+}
+/*Headings styles */
+h1 {
+    margin-bottom: 5px;
+}
+
+h2 {
+    color: #333;
+    font-size: 18px;
+}
+
+/* Skills */
+ul {
+    padding-left: 25px;
+}
+
+/* Projects table */
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th {
+    background-color: #78ad5f;
+    color: white;
+    padding: 8px;
+    text-align: left;
+}
+
+td {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+/* Form */
+input,
+textarea {
+    width: 100%;
+    padding: 8px;
+    margin: 5px 0 10px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+}
+
+textarea {
+    height: 100px;
+}
+
+button,
+input[type="submit"] {
+    background-color: #78ad5f;
+    color: white;
+    border: none;
+    padding: 8px 15px;
+    cursor: pointer;
+}
+
+/* Footer */
+footer {
+    background-color: #78ad5f;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 10px;
+}
+
+footer a {
+    color: white;
 }
